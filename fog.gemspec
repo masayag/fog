@@ -46,7 +46,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.0.0'
 
-  s.add_dependency("fog-core", "~> 1.45")
+  #s.add_dependency("fog-core", "~> 1.45")
   s.add_dependency("fog-json")
   s.add_dependency("fog-xml", "~> 0.1.1")
 
@@ -68,7 +68,8 @@ Gem::Specification.new do |s|
   s.add_dependency("fog-joyent")
   s.add_dependency("fog-local")
   s.add_dependency("fog-openstack")
-  s.add_dependency("fog-ovirt")
+  # s.add_dependency("fog-ovirt")
+  # s.add_dependency("fog-kubevirt")
   s.add_dependency("fog-powerdns", ">= 0.1.1")
   s.add_dependency("fog-profitbricks")
   s.add_dependency("fog-rackspace")
